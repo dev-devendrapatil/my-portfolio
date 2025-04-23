@@ -4,6 +4,7 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -14,6 +15,8 @@ module.exports = {
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
+        fancy: "0 10px 20px rgba(147, 51, 234, 0.4)",
+
       },
       screens: {
         xs: "450px",

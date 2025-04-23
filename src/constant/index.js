@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    mui,
+    angular,
+    bootstrap,
+    aws,
+    synechron,
+    cognizant,
 } from "../assets";
 
 export const navLinks = [{
@@ -39,25 +45,47 @@ export const navLinks = [{
     },
 ];
 
-const services = [{
-        title: "Web Developer",
-        icon: web,
+const educationDetails = [{
+        type: "BE in Computer Engineering",
+        college: "Pimpri Chinchwad Collage of Enginnering(PCCOE),PUNE",
+        year: "2022",
+        score: "9.08 CGPA",
+        location: "Pune, India",
+        icon: "/collage.png",
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
+        type: "Higher Secondary Education",
+        college: "Nutan Vidyalaya",
+        year: "2018",
+        score: "85%%",
+        location: "MH, India",
+        icon: "/high_school.png",
     },
     {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+        type: "Secondary Education",
+        college: "MSM English School",
+        year: "2016",
+        score: "9.6 CGPA",
+        location: "MH, India",
+        icon: "/school.png",
+    }
 ];
 
 const technologies = [{
+        name: "JavaScript",
+        icon: javascript,
+    },
+
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+
+    {
+        name: "Redux Toolkit",
+        icon: redux,
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -66,101 +94,70 @@ const technologies = [{
         icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
     {
-        name: "Node JS",
+        name: "Bootstrap",
+        icon: bootstrap,
+    },
+    {
+        name: "MUI",
+        icon: mui,
+    },
+
+    {
+        name: "Express JS",
         icon: nodejs,
+    },
+    {
+        name: "Angular",
+        icon: angular,
     },
     {
         name: "MongoDB",
         icon: mongodb,
     },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
+
     {
         name: "git",
         icon: git,
     },
+
     {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
+        name: "AWS",
+        icon: aws,
     },
 ];
 
-const experiences = [{
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+const experiences = [
+ 
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Frontend Developer",
+        company_name: "Synechron",
+        icon: synechron,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "December 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "• Collaborated closely with both my immediate team and cross-functional teams to deliver high-impact front-end features. Led the development and deployment of multiple features from concept to release.",
+            "• Improved performance through code-splitting, lazy loading, and optimized state management (Redux, Zustand, Context API).",
+            "• Implemented micro front-end architecture with craco-module-federation, ensuring scalability and modularity",
+            "• Integrated RESTful and GraphQL APIs, collaborating closely with back-end developers.",
+            "• Reduced page load time by 30% through optimization and refactoring.",
+            "• Supported rapid prototyping with Express.js for proof-of-concept projects.",
+            "• Utilized Docker to streamline environment setup and deployment."
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Programmer Analyst Trainee",
+        company_name: "Cognizant",
+        icon: cognizant,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2022 - May 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "• Assisted in the development of an insurance web application, attracting over 100,000 daily active users.",
+            "• Collaborated with the QA team to identify and resolve bugs, reducing post-release issues by 25%.",
+            "• Conducted thorough cross-browser testing to ensure consistent website performance across all major browsers"
         ],
     },
 ];
@@ -248,7 +245,7 @@ const projects = [{
 ];
 
 export {
-    services,
+    educationDetails,
     technologies,
     experiences,
     testimonials,
